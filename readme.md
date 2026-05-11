@@ -13,10 +13,6 @@ Personal configuration files and settings for funsies.
 - [fzf](https://github.com/junegunn/fzf)
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
 
-## TODO
-
-- [ ] One-click install script
-
 ## Folder Structure
 
 ```
@@ -45,3 +41,7 @@ Personal configuration files and settings for funsies.
     │       └── Preferences.sublime-settings
     └── wallpapers/                    # Desktop wallpapers
 ```
+
+## TODO
+
+- [ ] One-click install script
