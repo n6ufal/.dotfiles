@@ -1,6 +1,6 @@
 # .dotfiles
 
-Personal configuration files and settings for funsies.
+Personal config files and settings for funsies.
 
 ![1](assets/1.png)
 
@@ -20,11 +20,12 @@ Personal configuration files and settings for funsies.
 ```
 .dotfiles/
 ├── readme.md                          # This file
-│
 ├── assets/                            # Miscellaneous assets
-│
+├── config/                            # Configuration files
+│   ├── starship.toml
+│   ├── cava/
+│   └── fastfetch/
 ├── cursor/                            # Cursor pack + install script
-│
 ├── powershell/                        # PowerShell configuration
 │   ├── Microsoft.PowerShell_profile.ps1  # PowerShell profile
 │   └── Modules/                       # Custom PowerShell modules
@@ -33,17 +34,11 @@ Personal configuration files and settings for funsies.
 │       ├── fzf.ps1                    # Fuzzy finder integration
 │       ├── ui.ps1                     # UI utilities
 │       └── utils.ps1                  # General utilities
-│
-└── sublime text/                      # Sublime Text configuration
-    ├── Packages/
-    │   └── User/                      # Custom settings
-    │       ├── Default (Windows).sublime-keymap
-    │       ├── Markdown GFM.sublime-settings
-    │       ├── Markdown.sublime-settings
-    │       ├── MultiMarkdown.sublime-settings
-    │       ├── Package Control.sublime-settings
-    │       └── Preferences.sublime-settings
-    └── wallpapers/                    # Desktop wallpapers
+├── sublime text/                      # Sublime Text configuration
+│   └── Packages/
+│       └── User/
+│           └── Preferences.sublime-settings
+└── wallpapers/                        # Desktop wallpapers
 ```
 ## TODO
 
