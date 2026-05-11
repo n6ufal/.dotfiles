@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"Catppuccin color schemes",
+		"Color Highlight",
+		"INI",
+		"Nord",
+		"Package Control",
+		"PowerShell",
+		"SideBarEnhancements",
+		"Theme - Rose Pine",
+	],
+}
