@@ -9,8 +9,10 @@ Personal configuration files and settings for funsies.
 ![cava](assets/cava.gif)
 
 ## Dependencies
-
+- [cava](https://github.com/karlstav/cava)
+- [fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - [fzf](https://github.com/junegunn/fzf)
+- [starship](https://github.com/starship/starship)
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
 
 ## Folder Structure
@@ -20,6 +22,8 @@ Personal configuration files and settings for funsies.
 ├── readme.md                          # This file
 │
 ├── assets/                            # Miscellaneous assets
+│
+├── cursor/                            # Cursor pack + install script
 │
 ├── powershell/                        # PowerShell configuration
 │   ├── Microsoft.PowerShell_profile.ps1  # PowerShell profile
@@ -41,7 +45,9 @@ Personal configuration files and settings for funsies.
     │       └── Preferences.sublime-settings
     └── wallpapers/                    # Desktop wallpapers
 ```
-
 ## TODO
 
 - [ ] One-click install script
+
+## CREDIT
+[jimmyxd2](https://www.deviantart.com/jimmyxd2) for Mac Tahoe Cursor pack
