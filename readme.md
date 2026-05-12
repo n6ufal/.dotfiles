@@ -84,5 +84,9 @@ A PowerShell profile with Nord color theme, API integrations, fuzzy search, and 
 
 - [ ] One-click install script
 
+## ADDITIONAL NOTES
+
+I don’t use much of that visual beautifier bullshit, transparency, tiling, custom status panels, or other eye candy because these dotfiles are made exclusively for my work laptop with a weak iGPU and only 8 GB RAM. Less graphical overhead = better thermals, better efficiency, and less pointless resource hogging.
+
 ## CREDIT
-[jimmyxd2](https://www.deviantart.com/jimmyxd2) for Mac Tahoe Cursor pack
+[jimmyxd2](https://www.deviantart.com/jimmyxd2) for Mac Tahoe cursor pack
