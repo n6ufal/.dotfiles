@@ -10,9 +10,10 @@ Personal config files and settings for funsies.
 
 ![cava](assets/cava.gif)
 
-# PowerShell Profile
+# PowerShell
 
-- Nord color theme throughout all outputs
+- Nord color palette throughout all outputs
+- Modular
 - Dynamic time-based greeting with icons
 - Weather reports for any location (Full, Short, Line, Moon modes)
 - Daily historical trivia from Wikipedia
@@ -43,6 +44,24 @@ Personal config files and settings for funsies.
 |----------|--------|
 | Ctrl+R | Fuzzy search command history |
 | Ctrl+T | Fuzzy search files |
+
+## CAVA
+
+- Nord color palette with 8-step gradient from blues to warm reds
+- Mono output with averaged channels as it should be
+- Reduced noise smoothing (0.98 noise reduction)
+- Frequency range: 30 Hz – 15 kHz (covers sub-bass to high treble)
+
+## Starship
+
+- Nord color palette
+- SSH-only hostname, sudo indicator, directory, git branch/status, command duration, Python version, then character prompt on new line
+- Username hidden by default (root-only for cleaner prompts)
+- Git status: conflicts, ahead/behind, diverged, untracked, stashed, modified, staged, renamed, deleted
+- Slow command tracking (>2 seconds)
+- Directory truncation: 3 parent folders with ellipsis, repo root detection, read-only lock icon
+- Chevron reverses (❯ → ❮) in normal mode, green on success, red on error
+
 
 ## Dependencies
 - [bottom](https://github.com/ClementTsang/bottom) or [btop4win](https://github.com/aristocratos/btop4win)
@@ -84,7 +103,7 @@ Personal config files and settings for funsies.
 
 ## Additional Notes
 
-I don’t use much of that visual beautifier bullshit, transparency, tiling, custom status panels, or other eye candy because these dotfiles are made exclusively for my work laptop with a weak iGPU and only 8 GB RAM. Less graphical overhead = better thermals, better efficiency, and less pointless resource hogging. Though that’s kinda ironic, since these dotfiles are basically eye candy in the first place anyway.
+No transparency, tiling, status panels, or other eye candy. These dotfiles are exclusively for my work laptop with a weak iGPU and 8GB RAM. Less overhead = better thermals and efficiency. Ironic, since these dotfiles are still eye candy anyway.
 
 ## Credit
-[jimmyxd2](https://www.deviantart.com/jimmyxd2) for Mac Tahoe cursor pack
+[jimmyxd2](https://www.deviantart.com/jimmyxd2) for Mac Tahoe cursor pack, thanks!
