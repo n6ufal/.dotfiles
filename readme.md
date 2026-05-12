@@ -49,6 +49,7 @@ Personal config files and settings for funsies.
 - [cava](https://github.com/karlstav/cava)
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - [fzf](https://github.com/junegunn/fzf)
+- [nerd fonts](https://www.nerdfonts.com/font-downloads)
 - [speedtest cli](https://www.speedtest.net/apps/cli)
 - [starship](https://github.com/starship/starship)
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
