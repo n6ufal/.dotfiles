@@ -9,6 +9,7 @@ Personal config files and settings for funsies.
 ![cava](assets/cava.gif)
 
 ## Dependencies
+- [bottom](https://github.com/ClementTsang/bottom)
 - [cava](https://github.com/karlstav/cava)
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - [fzf](https://github.com/junegunn/fzf)
