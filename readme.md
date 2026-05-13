@@ -10,6 +10,8 @@ Personal config files and settings for funsies.
 
 ![cava](assets/cava.gif)
 
+## Configuration Details
+
 <details>
 <summary><h2>PowerShell</h2></summary>
 
@@ -103,7 +105,6 @@ Personal config files and settings for funsies.
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - [fzf](https://github.com/junegunn/fzf)
 - JetBrainsMono Nerd Font
-- [speedtest cli](https://www.speedtest.net/apps/cli)
 - [starship](https://github.com/starship/starship)
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
 ## Folder Structure
