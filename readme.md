@@ -1,6 +1,6 @@
 # dotfiles
 
-Personal config files and settings for funsies.
+> Personal config files and settings for funsies.
 
 ![1](assets/1.png)
 
@@ -30,7 +30,7 @@ Personal config files and settings for funsies.
 
 | Command | Aliases | Description |
 |---------|---------|-------------|
-| weather [city] | - | Get weather forecast |
+| weather [city] | - | Get weather forecast fetched from wttr.in |
 | advice | - | Random life advice |
 | t | Get-Trivia | Daily historical events |
 | g query | google | Open Google search in browser |
@@ -100,13 +100,35 @@ Personal config files and settings for funsies.
 </details>
 
 ## Dependencies
-- [bottom](https://github.com/ClementTsang/bottom) or [btop4win](https://github.com/aristocratos/btop4win)
-- [cava](https://github.com/karlstav/cava)
-- [fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- [fzf](https://github.com/junegunn/fzf)
-- JetBrainsMono Nerd Font
-- [starship](https://github.com/starship/starship)
-- [zoxide](https://github.com/ajeetdsouza/zoxide)
+
+### Prerequisites
+
+- [PowerShell 7+](https://github.com/PowerShell/PowerShell/releases)
+- JetBrainsMono Nerd Font — install it first, then set it as your terminal font, otherwise icons will break
+
+### Install via winget
+
+Open PowerShell as Administrator and run:
+
+```powershell
+winget install -e --id Starship.Starship
+winget install -e --id karlstav.cava
+winget install -e --id junegunn.fzf
+winget install -e --id ajeetdsouza.zoxide
+winget install -e --id Fastfetch-cli.Fastfetch
+winget install -e --id karlstav.cava
+winget install -e --id aristocratos.btop4win
+winget install -e --id DEVCOM.JetBrainsMonoNerdFont
+```
+
+### PowerShell modules
+
+```powershell
+Install-Module -Name PSFzf -Scope CurrentUser
+```
+
+> Required for Ctrl+R history search and Ctrl+T file search.
+
 ## Folder Structure
 
 ```
