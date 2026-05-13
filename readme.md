@@ -112,7 +112,6 @@ Open PowerShell as Administrator and run:
 
 ```powershell
 winget install -e --id Starship.Starship
-winget install -e --id karlstav.cava
 winget install -e --id junegunn.fzf
 winget install -e --id ajeetdsouza.zoxide
 winget install -e --id Fastfetch-cli.Fastfetch
