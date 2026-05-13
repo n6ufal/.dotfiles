@@ -1,4 +1,4 @@
-# .dotfiles
+# dotfiles
 
 Personal config files and settings for funsies.
 
@@ -10,7 +10,8 @@ Personal config files and settings for funsies.
 
 ![cava](assets/cava.gif)
 
-# PowerShell
+<details>
+<summary><h2>PowerShell</h2></summary>
 
 - Nord color palette throughout all outputs
 - Modular
@@ -45,14 +46,20 @@ Personal config files and settings for funsies.
 | Ctrl+R | Fuzzy search command history |
 | Ctrl+T | Fuzzy search files |
 
-## CAVA
+</details>
+
+<details>
+<summary><h2>CAVA</h2></summary>
 
 - Nord color palette with 8-step gradient from blues to warm reds
 - Mono output with averaged channels as it should be
 - Reduced noise smoothing (0.98 noise reduction)
 - Frequency range: 30 Hz – 15 kHz (covers sub-bass to high treble)
 
-## Starship
+</details>
+
+<details>
+<summary><h2>Starship</h2></summary>
 
 - Nord color palette
 - SSH-only hostname, sudo indicator, directory, git branch/status, command duration, Python version, then character prompt on new line
@@ -62,17 +69,43 @@ Personal config files and settings for funsies.
 - Directory truncation: 3 parent folders with ellipsis, repo root detection, read-only lock icon
 - Chevron reverses (❯ → ❮) in normal mode, green on success, red on error
 
+</details>
+
+<details>
+<summary><h2>Sublime Text 4</h2></summary>
+
+- Hardware Acceleration with OpenGL and GPU window buffer enabled
+- Smooth scrolling enabled with smooth caret style
+- Font set to JetBrainsMono NF with gray and subpixel antialiasing
+- Theme Adaptive with Nord color palette
+- Line highlighting enabled
+- Scrollbar always visible with faded style
+- Line padding 1px top and bottom for compact view
+- Scroll past end enabled
+- White space only shown on selection
+- Word wrap auto with subsequent line indent
+- Save actions trim trailing whitespace and ensure newline at EOF
+- Find auto selects in selection and finds selected text by default
+- Preview on click disabled, opens files directly
+- Modified tabs highlighted
+- Keep empty windows open
+- Mini diff enabled for change tracking
+- Atomic save prevents partial writes
+- Shift tab unindents properly
+- Drag text disabled
+- Relative line numbers commented out as optional
+
+</details>
 
 ## Dependencies
 - [bottom](https://github.com/ClementTsang/bottom) or [btop4win](https://github.com/aristocratos/btop4win)
 - [cava](https://github.com/karlstav/cava)
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - [fzf](https://github.com/junegunn/fzf)
-- [nerd fonts](https://www.nerdfonts.com/font-downloads)
+- JetBrainsMono Nerd Font
 - [speedtest cli](https://www.speedtest.net/apps/cli)
 - [starship](https://github.com/starship/starship)
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
-
 ## Folder Structure
 
 ```
