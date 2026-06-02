@@ -106,18 +106,20 @@
 - [PowerShell 7+](https://github.com/PowerShell/PowerShell/releases)
 - JetBrainsMono Nerd Font — install it first, then set it as your terminal font, otherwise icons will break
 
-### Install via winget
+### Install via Scoop + winget
 
 Open PowerShell as Administrator and run:
 
 ```powershell
-winget install -e --id Starship.Starship
-winget install -e --id junegunn.fzf
-winget install -e --id ajeetdsouza.zoxide
-winget install -e --id Fastfetch-cli.Fastfetch
+# Scoop packages
+scoop bucket add nerd-fonts
+scoop install starship fzf zoxide fastfetch btop JetBrainsMono-NF
+
+# PSFzf (PowerShell module)
+Install-Module -Name PSFzf -Scope CurrentUser
+
+# cava (not in scoop, use winget)
 winget install -e --id karlstav.cava
-winget install -e --id aristocratos.btop4win
-winget install -e --id DEVCOM.JetBrainsMonoNerdFont
 ```
 
 ### PowerShell modules
