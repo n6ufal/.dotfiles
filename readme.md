@@ -155,7 +155,7 @@ Install-Module -Name PSFzf -Scope CurrentUser
 ```
 ## Homework
 
-- [ ] One-click install script
+- [x] One-click install script
 - [ ] Better screenshots
 
 ## Additional Notes
